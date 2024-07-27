@@ -1,0 +1,95 @@
+.hidden {
+    display: none;
+}
+
+body {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 100vh;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.clockStyle {
+    color: white;
+    -webkit-text-stroke: 1px black;
+    font-size: 9em;
+    text-align: center;
+    width: 100vw;
+    margin: 0;
+}
+
+#quote {
+    margin-bottom: 3vh;
+}
+
+#quote span:first-child {
+    color: whitesmoke;
+    -webkit-text-stroke: 0.5px black;
+    font-size: 2em;
+}
+
+#quote span:last-child {
+    color: whitesmoke;
+    -webkit-text-stroke: 0.5px black;
+    font-size: 1.5em;
+}
+
+#weatherDiv span {
+    color: whitesmoke;
+    -webkit-text-stroke: 1px black;
+    font-size: 1.7em;
+}
+
+#weatherDiv {
+    width: 100vw;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+    margin-right: 40px;
+}
+
+#login-form {
+    height: 10vh;
+}
+
+#login-form input {
+    height: 3vh;
+}
+
+#greeting {
+    color: snow;
+    -webkit-text-stroke: 1px black;
+    font-size: 6em;
+    margin: 0;
+}
+
+#todo-form input {
+    height: 2.5vh;
+    width: 31vw;
+    font-size: 1.5em;
+    1
+}
+
+#todo-list {
+    color: beige;
+    font-size: 2.3em;
+    -webkit-text-stroke: 0.5px black;
+    list-style-type: none;
+    padding: 0;
+}
+
+#todo-list li {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#todo-list li::before {
+    content: '•\00a0';
+}
